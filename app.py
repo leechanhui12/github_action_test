@@ -3,6 +3,7 @@ def add(number_list):
     for number in number_list:
         sum_value+= number
     return sum_value
+
 def main():
     numbers= input("더할숫자들을공백으로구분하여입력하세요: ")
     number_list= map(float, numbers.split())
